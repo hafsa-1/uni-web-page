@@ -1,2 +1,2 @@
 # hafsarepo-f.uni-
-my website is published at https://sehrishbashir.github.io/hafsarepo-f.uni-/.
+site is ready to be published at https://hafsa-1.github.io/uni-web-page/.
