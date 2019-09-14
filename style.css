@@ -1,0 +1,416 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#part1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/library-hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #0e0e0e94;
+    background-blend-mode: multiply;
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    height: 15%;
+}
+
+.head {
+    width: 25%;
+}
+
+.head h1 {
+    margin: 0px;
+    color: white;
+    padding: 0;
+    font-size: 2.5em;
+}
+
+.nav {
+    width: 55%;
+}
+
+.nav ul {
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav i{
+    font-size:1em;
+}
+
+
+.container li {
+    color: white;
+    font-size: 1.5em;
+}
+
+#button {
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: orange;
+}
+
+i {
+    font-size: 20px;
+}
+
+.heading {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.content h1 {
+    font-size: 5em;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.content h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0px;
+}
+
+.content h3 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px;
+}
+
+#button2 {
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    margin-top: 5%;
+    background-color: #043867;
+    border-radius: 5px;
+    border: none; 
+    color: white;
+    font-size: 1.9em;
+    font-family:' Times New Roman', Times, serif;
+}
+
+#part2 {
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    display: flex;
+}
+
+#sec1, #sec2 {
+    width: 50%;
+    height: 35vw;
+    background-color: white;
+} 
+
+#sec2 {
+    background-color: #faf2c8;
+}
+
+#sec2 h2, #sec1 h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.part1, .part2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.part2 {
+   margin-top: 40px;
+}
+
+.round, .round1 {    
+    margin: 0 30px 0 30px;
+    padding: 0;
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    background-color: #043867;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+}
+
+.poetry h4, .poetry1 h4 {
+    font-weight: initial;
+    margin: 0;
+    color: #416c83;
+    text-decoration: underline;
+    text-decoration-color: #8ca5b1;
+    font-size: 1.8em;
+} 
+
+.poetry p, .poetry1 p {
+    margin: 0;
+    font-size: 1.2em; 
+    margin-top: 7px; 
+}
+
+.poetry a, .poetry1 a {
+    text-decoration: none;
+    color: rgb(155, 150, 150);
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+ 
+.number-text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}  
+
+#slider{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100vh;
+    margin-left: 0px;
+} 
+
+.view {
+    display: flex;
+    justify-content: center;
+}
+
+.events {
+    border-radius: 5px;
+    border: none;
+    background-color: #043867;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.round2 {
+    margin: 0 30px 0 30px;
+    padding: 0;
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    background-color: #f6d652;
+    border: none;
+    color: white;
+    font-size: 1.8em;
+}
+
+.blog {
+    border-radius: 5px;
+    border: none;
+    background-color: #f6d652;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+  
+footer {
+    margin-top:80px;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #fbfbfb;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center; 
+    margin-top: 0px;
+}
+
+#uni {
+    width: 300px;
+    height: 150px; 
+}
+
+#uni p {
+    color: grey;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#uni h1 {
+    margin: 0;
+}
+
+#exp {
+    width: 200px;
+    height: 150px; 
+}
+
+#exp ul {
+    margin: 0, 0, 5px, 0;
+    padding: 0;
+}
+
+#exp li {
+    margin-top: 5px;
+    list-style: none;
+    color: grey;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#learn {
+    width: 200px;
+    height: 150px;
+}
+
+#learn ul {
+    margin: 0, 0, 5px, 0;
+    padding: 0;
+}
+
+#learn li {
+    margin-top: 5px;
+    list-style: none;
+    color: grey;
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+#con {
+    width: 300px;
+    height: 150px;
+}
+
+#con-div {
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    margin-top: 10px;
+}
+.in {
+    width: 50px;
+    height: 50px;
+    background-color: #0074b8;
+}
+
+.face {
+    width: 50px;
+    height: 50px;
+    background-color: #495ca5;
+}
+
+.insta {
+    width: 50px;
+    height: 50px;
+    background-color: #ea0064;
+}
+
+.twitt {
+    width: 50px;
+    height: 50px;
+    background-color: #41aaf2;
+}
+
+.you {
+    width: 53px;
+    height: 50px;   
+    background-color: #dd0000;
+}
+
+i {
+    font-size: 2em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
